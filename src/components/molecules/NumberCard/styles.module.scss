@@ -1,0 +1,33 @@
+@import '/src/config/styles/tokens.scss';
+
+.Card {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  padding: 14px 11px;
+  background-color: $colors-lightGray;
+}
+
+.CardShadow {
+  height: 40px;
+  width: 100%;
+  background-color: $colors-darkGray;
+  border-radius: 8px;
+  position: absolute;
+  bottom:-4.73px;
+  left: 0px;
+  z-index: -1;
+}
+
+.Container {
+  position: relative;
+}
+
+.Number {
+  font-size: 36px !important;
+  line-height: 71px;
+  letter-spacing: -1px;
+  color: $colors-pink;
+}
